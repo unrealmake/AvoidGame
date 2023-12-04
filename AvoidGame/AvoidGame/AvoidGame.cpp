@@ -1,10 +1,23 @@
-// AvoidGame.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include <iostream>
+#include <SFML/Audio.hpp>
+#include <SFML/Graphics.hpp>
+#include <SFML/Network.hpp>
+#include <SFML/System.hpp>
+#include <SFML/Window.hpp>
+
+#include "Game.h"
 
 int main()
 {
-    std::cout << "Hello World!\n";
-}
+    // start up
+    Game Avoid;
 
+    // 게임 루프
+    while (Avoid.Running())
+    {
+
+    Avoid.EventHandler();
+
+    Avoid.Render();
+    }
+}

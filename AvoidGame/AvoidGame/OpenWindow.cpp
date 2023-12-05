@@ -30,12 +30,10 @@ void OpenWindow()
 				Window.close();
 				break;
 			case Event::KeyPressed:
-				if(Event.key.code == Keyboard::Escape) Window.close();
-					break;
+				if (Event.key.code == Keyboard::Escape) Window.close();
+				break;
 			}
-	}
-		
-		
+		}
 	}
 }
 

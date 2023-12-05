@@ -9,6 +9,10 @@
 
 int main()
 {
+    //랜덤값 사용 시작
+    // time값 사용 : 실행할 때 마다 초기값을 다른값으로 사용
+    srand(time(NULL));
+
     // start up
     Game Avoid;
 
@@ -17,7 +21,7 @@ int main()
     {
 
     Avoid.EventHandler();
-
+    Avoid.Update();
     Avoid.Render();
     }
 }

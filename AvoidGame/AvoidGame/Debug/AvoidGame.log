@@ -1,7 +1,10 @@
-﻿  Game.cpp
+﻿  AvoidGame.cpp
+C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\AvoidGame.cpp(14,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Game.cpp
 C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\Game.cpp(87,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\Game.cpp(164,30): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\Game.cpp(176,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\Game.cpp(181,20): warning C4018: '<': signed/unsigned mismatch
 C:\Users\user\Documents\Github\AvoidGame\AvoidGame\AvoidGame\Game.cpp(194,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   AvoidGame.vcxproj -> C:\Users\user\Documents\Github\AvoidGame\AvoidGame\Debug\AvoidGame.exe
